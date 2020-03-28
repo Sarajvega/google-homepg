@@ -1,0 +1,112 @@
+a {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    color: #000;
+    opacity: 0.90;
+    font-size: 13px;
+}
+
+nav {
+    font-family: arial,sans-serif;
+    color: #000;
+    opacity: 0.75;
+    font-size: 14px;
+    margin: 0px 15px 0px 15px
+  }
+
+.nav-left {
+    padding-inline-start: 0%;
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+  }
+
+#logo {
+    padding-top: 190px;
+    display: block;
+    margin-right: auto; 
+    margin-left: auto;
+  }
+  
+  /* Margin:auto takes up available space*/
+  
+  input {
+    display: flex;
+    align-content: center;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 484px;
+    padding-top: 6px;
+  }
+  /* match on elements that have both .flex and .box class when both are right next to one another
+  if there was a space, ".flex .box" then items with the flex class that are descendents of .box class */
+  
+  body {
+    display: inline-flexbox;
+  }
+  
+  .button-box {
+    padding: 2px;
+  }
+
+  .search-button {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.75;
+    border: 1px solid #f2f2f2;
+    box-shadow: none;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #search-bar {
+    border-radius: 24px;
+    width: 482px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+
+  }
+
+  ::placeholder {
+      padding-left: 20px;
+  }
+  /* :: signifies pseudoelement */
+
+  .footer {
+    color: #5F6368;
+    display: block;
+    margin-left: -27px;
+    font-size: 14px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    padding-top: 10px;
+  }
+
+  a:hover {
+      text-decoration: underline;
+      opacity: 0.75;
+  }
